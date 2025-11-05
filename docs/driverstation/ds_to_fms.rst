@@ -237,7 +237,7 @@ Tags
    +----------+-----------------------------------------------------------+
    | ``0x1b`` | :ref:`Challenge Response <ds_fms_challenge_response>`     |
    +----------+-----------------------------------------------------------+
-   | ``0x1c`` | :ref:`DS Ping <ds_fms_ds_ping>`                           |
+   | ``0x1d`` | :ref:`DS Ping <ds_fms_ds_ping>`                           |
    +----------+-----------------------------------------------------------+
 
 Versions all take the same format
@@ -451,7 +451,7 @@ The correct response uses the Random Value sent by the
 
 .. _ds_fms_ds_ping:
 
-DS Ping (``0x1c``)
+DS Ping (``0x1d``)
 """"""""""""""""""
 
 Just an empty tag. Sent by DS to FMS as a heartbeat.
